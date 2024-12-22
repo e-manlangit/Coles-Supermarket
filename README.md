@@ -1,7 +1,7 @@
 # Project-Background
 Coles Supermarket, founded in 1914, is an Australian supermarket chain that sells produce, liquor, essential items, and financial services, such as credit cards.
 
-The company has significant amounts of data on its sales, marketing efforts, operational efficiency, product offerings and loyalty programs that has been previously underutilized. This project thoroughly analyze and synthesizes this over critical insights that will improve Coles' success.
+The company provided information from Q1 and Q2 from FY24 on store performance, geographics, and revenue and sales performance. This project thoroughly analyze and synthesizes this over critical insights that will improve Coles' success.
 
 Insights and recommendations are provided on the following key areas:
 
@@ -69,7 +69,7 @@ Based on the uncovered insights, the following recommendations have been provide
 
 - **Re-evaluate Bose SoundSport Headphones**. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystems loyalty members before discontinuing.
 
--** Continue and push forward the loyalty program.** In order to convert non-members, considering offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
+- **Continue and push forward the loyalty program.** In order to convert non-members, considering offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
 
 
 
