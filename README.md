@@ -29,3 +29,36 @@ with a total row count of X,X records
 # Executive Summary
 
 ###  Overview of Findings
+
+Example:
+After peaking in late 2020, the company's sales have continued to decline, with significant drops in 2022. Key performance indicators have all shown year-over-year decreases: order volume by 40%, revenue by 46%, and average order value (AOV) by 10%. While this decline can be broadly attributed to a return to pre-pandemic normalcy, the following sections will explore additional contributing factors and highlight key opportunity areas for following sections will explore additional contributing factors and highlight key opportunity areas for improvement.
+
+Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
+
+(INSERT GRAPHS HERE)
+
+### Sales Trends:
+
+- The company's sales peaked in December 2020 with 4,019 orders totaling X monthly revenue. This corresponds with the boom in economy-side spending due to pandemic-induced changing consumer behavior.
+
+- Despite the downward trend, full-year 2022 remained above the pre-COVID 2019 baseline in all three key performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order count well above the same period in 2020, up 37% and 23% respectively.
+
+- Average order value saw a one-month year-over-year increase in September 2022, this can be attributed to an increased share of high-cost laptop orders
+
+(INSERT CHART)
+
+### Product Performance:
+
+- 85% of the company's orders are from just three products, Gaming Monitor, Apple Airpods Headphones and Samsung Charging Cable Pack. These three products accounted for $3.5 million in revenue in 2022, 70% of the company's total.
+
+- In the headphones category, the Bose SoundSport Headphones have underperformed, contributing to less than 1% of total revenues and orders despite being on average, $40 cheaper than the well-performing Airpods.
+
+- The accessory category continues to grow as share of orders, now at 32% in 2022, up from 21% in 2020, however, the accessories remain less than 4% of their revenue.
+
+
+(INSERT CHART)
+
+### Recommendations:
+
+
+
