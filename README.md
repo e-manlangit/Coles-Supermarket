@@ -1,7 +1,7 @@
 # Project-Background
 Coles Supermarket, founded in 1914, is an Australian supermarket chain that sells produce, liquor, essential items, and financial services, such as credit cards.
 
-The company currently has limited on sales, marketing efforts, operational efficiency, product offerings and loyalty programs that has been previously underutilized. This project thoroughly analyze and synthesizes this over critical insights that will improve Coles' success.
+The company has significant amounts of data on its sales, marketing efforts, operational efficiency, product offerings and loyalty programs that has been previously underutilized. This project thoroughly analyze and synthesizes this over critical insights that will improve Coles' success.
 
 Insights and recommendations are provided on the following key areas:
 
