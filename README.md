@@ -17,12 +17,12 @@ The SQL queries utilized to clean, organize, and prepare data for the dashboard 
 Targeted SQL queries regarding various business questions can be found here
 
 # Data Structure & Initial Checks
-Cole's data structure as seen below consists of two tables: 
-
-with a total row count of X,X records
+Cole's data structure as seen below consists of two tables: sales and store data, with a total row count of 683 records: 
 
   - Sales data: row num, store id, expected revenue, gross sales, sales cost, targeted quarter, forecast
   - Store data: row num, store id, store location, customer count, staff count, store area
+    
+![sales_datastructure](https://github.com/user-attachments/assets/290af041-e441-4736-8d4e-3d2b46d9603b)
 
 ![stores_datastructure](https://github.com/user-attachments/assets/eccf1cab-b227-4177-b602-1712bb8ef26c)
 
