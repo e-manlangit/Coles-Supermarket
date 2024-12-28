@@ -24,7 +24,9 @@ with a total row count of X,X records
   - Sales data: row num, store id, expected revenue, gross sales, sales cost, targeted quarter, forecast
   - Store data: row num, store id, store location, customer count, staff count, store area
 
-(INSERT GRAPHS HERE)
+![alt text] (https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/sales_datastructure.png?raw=true)
+
+![alt text] (https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/stores_datastructure.png?raw=true)
 
 # Executive Summary
 
