@@ -30,6 +30,8 @@ Cole's data structure as seen below consists of two tables: sales and store data
 
 ###  Overview of Findings
 
+In FY24, the company performed well in Q1; however, declined in Q2. 
+
 Example:
 After peaking in late 2020, the company's sales have continued to decline, with significant drops in 2022. Key performance indicators have all shown year-over-year decreases: order volume by 40%, revenue by 46%, and average order value (AOV) by 10%. While this decline can be broadly attributed to a return to pre-pandemic normalcy, the following sections will explore additional contributing factors and highlight key opportunity areas for following sections will explore additional contributing factors and highlight key opportunity areas for improvement.
 
