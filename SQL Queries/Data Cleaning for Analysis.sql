@@ -1,4 +1,4 @@
---CREATE A COPY TABLE FOR EDITS--
+-- Creating a copy of tables for edits
 
 CREATE TABLE sales_data_copy
 LIKE sales_data;
@@ -10,13 +10,12 @@ INSERT sales_data_copy
 SELECT *
 FROM sales_data;
 
-
 INSERT store_data_copy
 SELECT *
 FROM store_data;
 
-SELECT *
-FROM store_data_copy;
+-- Creating a CTE using the Row_Number window function to assign a unique number to each row within a partition
+-- Then using the CTE to identify any duplicates
 
 SELECT *,
 	ROW_NUMBER () OVER(
@@ -30,13 +29,12 @@ SELECT *,
 	PARTITION BY row_num, coles_storeid, store_location, customer_count, staff_count, store_area) AS row_number
 FROM store_data_copy
 )
-
+	
 SELECT *
 FROM duplicate_store
 WHERE row_number > 1;
 
-SELECT *
-FROM sales_data_copy;
+-- Creating a similar CTE for another table
 
 SELECT *,
 	ROW_NUMBER () OVER (
@@ -55,7 +53,8 @@ SELECT *
 FROM dup_sales
 WHERE row_number > 1;
 
--- DELETE EXTRA COLUMNS --
+-- Deleting unnecessary rows
+
 SELECT *
 FROM sales_data_copy
 WHERE row_num = 'Row_Num';
