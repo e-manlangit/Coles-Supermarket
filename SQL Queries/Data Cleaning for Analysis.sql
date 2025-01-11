@@ -1,4 +1,4 @@
--- Creating a copy of tables for edits
+-- Copy of tables
 
 CREATE TABLE sales_data_copy
 LIKE sales_data;
@@ -14,8 +14,25 @@ INSERT store_data_copy
 SELECT *
 FROM store_data;
 
--- Creating a CTE using the Row_Number window function to assign a unique number to each row within a partition
--- Then using the CTE to identify any duplicates
+-- Null Check
+
+SELECT
+	SUM(CASE WHEN coles_storeidno IS NULL THEN 1 ELSE 0 END) AS null_count_storeidno,
+	SUM(CASE WHEN expec_revenue IS NULL THEN 1 ELSE 0 END) AS null_count_expec_rev,
+	SUM(CASE WHEN gross_sale IS NULL THEN 1 ELSE 0 END) AS null_count_gross_sale,
+	SUM(CASE WHEN sales_cost IS NULL THEN 1 ELSE 0 END) AS null_count_sales_cost,
+	SUM(CASE WHEN targeted_quarter IS NULL THEN 1 ELSE 0 END) AS null_count_targ,
+	SUM(CASE WHEN coles_forecast IS NULL THEN 1 ELSE 0 END) AS null_count_forecast
+FROM sales_data_copy;
+
+SELECT
+	SUM(CASE WHEN store_location IS NULL THEN 1 ELSE 0 END) AS null_location,
+	SUM(CASE WHEN customer_count IS NULL THEN 1 ELSE 0 END) AS null_cuscount,
+	SUM(CASE WHEN staff_count IS NULL THEN 1 ELSE 0 END) AS null_staffcount,
+	SUM(CASE WHEN store_area IS NULL THEN 1 ELSE 0 END) AS null_storearea
+FROM store_data_copy;
+
+-- Duplicate check on first table
 
 SELECT *,
 	ROW_NUMBER () OVER(
@@ -34,7 +51,7 @@ SELECT *
 FROM duplicate_store
 WHERE row_number > 1;
 
--- Creating a similar CTE for another table
+-- Duplicate check on second table
 
 SELECT *,
 	ROW_NUMBER () OVER (
@@ -53,35 +70,35 @@ SELECT *
 FROM dup_sales
 WHERE row_number > 1;
 
--- Deleting unnecessary rows
-
-SELECT *
-FROM sales_data_copy
-WHERE row_num = 'Row_Num';
+-- Removing nulls / redundant rows
 
 DELETE FROM sales_data_copy
 WHERE row_num = 'Row_Num'; 
 
-SELECT *
-FROM store_data_copy
-WHERE row_num IS NULL;
 
 DELETE FROM store_data_copy
 WHERE row_num IS NULL;
 
--- STANDARDIZING DATA --
+DELETE FROM sales_data_copy
+WHERE sales_cost IS NULL
 
-SELECT *
-FROM sales_data_copy sl
-LEFT JOIN store_data_copy st
-ON sl.coles_storeidno = st.coles_storeid;
+DELETE FROM store_data_copy
+WHERE customer_count IS NULL
+
+-- Distinct checks on TEXT data
 
 SELECT DISTINCT (coles_forecast)
 FROM sales_data_copy
 
---NO TRIM OR UPDATES NEEDED--
+SELECT DISTINCT (targeted_quarter)
+FROM sales_data_copy
 
+SELECT DISTINCT (coles_storeidno)
+FROM sales_data_copy
+ORDER BY 1 ASC
 
+--Altering columns from TEXT to INT
+	
 SELECT column_name, data_type
 FROM information_schema.columns
 WHERE table_name =  'sales_data_copy';
