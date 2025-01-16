@@ -1,7 +1,7 @@
 # Project-Background
 Coles Supermarket, founded in 1914, is an Australian supermarket chain that sells produce, liquor, essential items, and financial services, such as credit cards.
 
-The company provided information from Q1 and Q2 from FY24 on store performance, geographics, and revenue and sales performance. This project thoroughly analyzes and synthesizes this over critical insights that will improve Coles' success.
+The company provided information from Q1 and Q2 from FY23 on store performance, geographics, and revenue and sales performance. This project thoroughly analyzes and synthesizes this over critical insights that will improve Coles' success.
 
 Insights and recommendations are provided on the following key areas:
 
@@ -30,7 +30,11 @@ Cole's data structure as seen below consists of two tables: sales and store data
 
 ###  Overview of Findings
 
-In FY24, the company performed well in Q1; however, declined in Q2. 
+In FY23, the company performed relatively well based on the limited information provided. Sales exceeded expectations by X% in Q1 and X% in Q2. Although sales exceeded expectations, sales declined from Q1 compared to Q2. Gross sales indicate a 4.05% decrease from Q1 to Q2 even after adding stores in a new location. 
+
+Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
+
+(INSERT GRAPHS)
 
 Example:
 After peaking in late 2020, the company's sales have continued to decline, with significant drops in 2022. Key performance indicators have all shown year-over-year decreases: order volume by 40%, revenue by 46%, and average order value (AOV) by 10%. While this decline can be broadly attributed to a return to pre-pandemic normalcy, the following sections will explore additional contributing factors and highlight key opportunity areas for following sections will explore additional contributing factors and highlight key opportunity areas for improvement.
