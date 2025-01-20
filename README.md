@@ -30,19 +30,17 @@ Cole's data structure as seen below consists of two tables: sales and store data
 
 ###  Overview of Findings
 
-In FY23, the company performed relatively well based on the limited information provided. Sales exceeded expectations by X% in Q1 and X% in Q2. Although sales exceeded expectations, sales declined from Q1 compared to Q2. Gross sales indicate a 4.05% decrease from Q1 to Q2 even after adding stores in a new location. 
+In FY23, the company performed relatively well based on the limited information provided. Sales exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales exceeded expectations, sales declined from Q1 compared to Q2. Gross sales indicate a 4.05% decrease from Q1 to Q2 even after additional stores were included in a new location. While this decline could be attributed to an increase in inflation, the following sections will explore additional contributing factors and highlight key opportunity areas. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
 (INSERT GRAPHS)
 
+## Sales Trends:
+
+
+
 Example:
-After peaking in late 2020, the company's sales have continued to decline, with significant drops in 2022. Key performance indicators have all shown year-over-year decreases: order volume by 40%, revenue by 46%, and average order value (AOV) by 10%. While this decline can be broadly attributed to a return to pre-pandemic normalcy, the following sections will explore additional contributing factors and highlight key opportunity areas for following sections will explore additional contributing factors and highlight key opportunity areas for improvement.
-
-Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
-
-(INSERT GRAPHS HERE)
-
 ### Sales Trends:
 
 - The company's sales peaked in December 2020 with 4,019 orders totaling X monthly revenue. This corresponds with the boom in economy-side spending due to pandemic-induced changing consumer behavior.
