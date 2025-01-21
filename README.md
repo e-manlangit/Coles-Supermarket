@@ -30,7 +30,7 @@ Cole's data structure as seen below consists of two tables: sales and store data
 
 ###  Overview of Findings
 
-In FY23, the company performed relatively well based on the limited information provided. Sales exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales exceeded expectations, sales declined from Q1 compared to Q2. Gross sales indicate a 4.05% decrease from Q1 to Q2 even after additional stores were included in a new location. While this decline could be attributed to an increase in inflation, the following sections will explore additional contributing factors and highlight key opportunity areas. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
+In FY23, the company performed relatively well based on the limited information provided. Sales exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales exceeded expectations, sales declined from Q1 compared to Q2. Gross sales indicate a 5% decrease from Q1 to Q2 even after additional stores were included in a new location. While this decline could be attributed to an increase in inflation, the following sections will explore additional contributing factors and highlight key opportunity areas. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
@@ -38,7 +38,9 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 ## Sales Trends:
 
+- Stores in VIC, NSW, and QLD made up more than 20% of sales and generated up to 30% of overall customers in Q1.
 
+- 
 
 Example:
 ### Sales Trends:
