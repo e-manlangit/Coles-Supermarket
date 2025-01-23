@@ -8,6 +8,10 @@ Insights and recommendations are provided on the following key areas:
   - Sales Trend Analysis: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV).
   - Store Performance: An analysis on Cole's store locations and understanding their impact on sales and returns
 
+Outliers:
+There are 10 less stores that were reported in Q2
+  - Unable to identify if the 10 stores were closed
+
 An interactive PowerBI dashboard can be downloaded here
 
 The SQL queries utilized to inspect and perform quality checks can be found here.
@@ -21,6 +25,15 @@ Cole's data structure as seen below consists of two tables: sales and store data
 
   - Sales data: row num, store id, expected revenue, gross sales, sales cost, targeted quarter, forecast
   - Store data: row num, store id, store location, customer count, staff count, store area
+        - Store location abbrevations:
+            - ACT: Australian Capital Territory
+            - NSW: New South Wales
+            - NT: Northern Territory
+            - QLD: Queensland
+            - SA: South Australia
+            - TAS: Tasmania
+            - VIC: Victoria
+            - WA: Western1 Australia
     
 ![sales_datastructure](https://github.com/user-attachments/assets/290af041-e441-4736-8d4e-3d2b46d9603b)
 
@@ -38,9 +51,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 ## Sales Trends:
 
-- Stores in VIC, NSW, and QLD made up more than 20% of sales and generated up to 30% of overall customers in Q1.
-
-- 
+On average, customers spend approximately $270 per store. Stores in Victoria, New South Wales and Queensland have generated the most foot traffic in the country and have generated over 20% of gross sales YTD. This could be attributed to the numbers of stores in the region. There are over 100 stores in Victoria, New South Wales, and Queensland. All other regions have less than 100 stores, which could be a factor of the low sales.
 
 Example:
 ### Sales Trends:
@@ -53,15 +64,6 @@ Example:
 
 (INSERT CHART)
 
-### Product Performance:
-
-- 85% of the company's orders are from just three products, Gaming Monitor, Apple Airpods Headphones and Samsung Charging Cable Pack. These three products accounted for $3.5 million in revenue in 2022, 70% of the company's total.
-
-- In the headphones category, the Bose SoundSport Headphones have underperformed, contributing to less than 1% of total revenues and orders despite being on average, $40 cheaper than the well-performing Airpods.
-
-- The accessory category continues to grow as share of orders, now at 32% in 2022, up from 21% in 2020, however, the accessories remain less than 4% of their revenue.
-
-(INSERT CHART)
 
 ### Recommendations:
 
