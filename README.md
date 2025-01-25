@@ -1,16 +1,11 @@
 # Project-Background
-Coles Supermarket, founded in 1914, is an Australian supermarket chain that sells produce, liquor, essential items, and financial services, such as credit cards.
+Coles Supermarket, established in 1914, is a leading Australian retail chain offering a wide range of products, including fresh produce, liquor, essential items, and financial services such as credit cards.
 
-The company provided information from Q1 and Q2 from FY23 on store performance, geographics, and revenue and sales performance. This project thoroughly analyzes and synthesizes this over critical insights that will improve Coles' success.
+The company provided information on store performance, geographics, and revenue and sales performance from Q1 to Q2 in FY23. The findings synthesize critical insights aimed at enhancing Coles' operational success and driving future growth.
 
-Insights and recommendations are provided on the following key areas:
+Key insights and recommendations are provided on the following key areas:
 
-  - Sales Trend Analysis: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV).
-  - Store Performance: An analysis on Cole's store locations and understanding their impact on sales and returns
-
-Outliers:
-There are 10 less stores that were reported in Q2
-  - Unable to identify if the 10 stores were closed
+  - Sales Trend and Store Performance Analysis: A comprehensive evaluation of sales performance by region and Coles' locations based on customer volume.
 
 An interactive PowerBI dashboard can be downloaded here
 
@@ -25,15 +20,16 @@ Cole's data structure as seen below consists of two tables: sales and store data
 
   - Sales data: row num, store id, expected revenue, gross sales, sales cost, targeted quarter, forecast
   - Store data: row num, store id, store location, customer count, staff count, store area
-        - Store location abbrevations:
-            - ACT: Australian Capital Territory
-            - NSW: New South Wales
-            - NT: Northern Territory
-            - QLD: Queensland
-            - SA: South Australia
-            - TAS: Tasmania
-            - VIC: Victoria
-            - WA: Western1 Australia
+
+Store location abbrevations:
+- ACT: Australian Capital Territory
+- NSW: New South Wales
+- NT: Northern Territory
+- QLD: Queensland
+- SA: South Australia
+- TAS: Tasmania
+- VIC: Victoria
+- WA: Western1 Australia
     
 ![sales_datastructure](https://github.com/user-attachments/assets/290af041-e441-4736-8d4e-3d2b46d9603b)
 
@@ -43,7 +39,7 @@ Cole's data structure as seen below consists of two tables: sales and store data
 
 ###  Overview of Findings
 
-In FY23, the company performed relatively well based on the limited information provided. Sales exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales exceeded expectations, sales declined from Q1 compared to Q2. Gross sales indicate a 5% decrease from Q1 to Q2 even after additional stores were included in a new location. While this decline could be attributed to an increase in inflation, the following sections will explore additional contributing factors and highlight key opportunity areas. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
+The company performed relatively well based on the limited information provided. Gross sales exceeded revenue expectations YTD by 21.89%. Stores that reported sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined from Q1 compared to Q2 5%. This could be attributed to reporting inconsistencies as stores did not report sales did not report for both quarters. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
@@ -51,19 +47,11 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 ## Sales Trends:
 
-On average, customers spend approximately $270 per store. Stores in Victoria, New South Wales and Queensland have generated the most foot traffic in the country and have generated over 20% of gross sales YTD. This could be attributed to the numbers of stores in the region. There are over 100 stores in Victoria, New South Wales, and Queensland. All other regions have less than 100 stores, which could be a factor of the low sales.
+- Stores in Victoria, New South Wales and Queensland have generated the most foot traffic in the country and have generated over 20% of gross sales YTD. This could be attributed to the numbers of stores in the region.
 
-Example:
-### Sales Trends:
-
-- The company's sales peaked in December 2020 with 4,019 orders totaling X monthly revenue. This corresponds with the boom in economy-side spending due to pandemic-induced changing consumer behavior.
-
-- Despite the downward trend, full-year 2022 remained above the pre-COVID 2019 baseline in all three key performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order count well above the same period in 2020, up 37% and 23% respectively.
-
-- Average order value saw a one-month year-over-year increase in September 2022, this can be attributed to an increased share of high-cost laptop orders
+- Victoria, New South Wales, and Queensland has over 100 stores in the regions. All other regions have less than 100 stores, which could be a factor of the low sales.
 
 (INSERT CHART)
-
 
 ### Recommendations:
 
