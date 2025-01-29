@@ -41,6 +41,8 @@ Store location abbrevations:
 
 The company performed relatively well based on the limited information provided. Gross sales exceeded revenue expectations YTD by 21.89%. Stores that reported sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined by 5% from Q1 to Q2. This could be attributed to reporting inconsistencies as stores did not report sales did not report for both quarters. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
 
+Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
+
 ![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Overview.jpg?raw=true)
 
 ## Sales Trends:
@@ -48,8 +50,6 @@ The company performed relatively well based on the limited information provided.
 - Stores in Victoria, New South Wales and Queensland have generated the most foot traffic in the country and have generated over 20% of gross sales YTD. This could be attributed to the numbers of stores in the region.
 
 - Victoria, New South Wales, and Queensland has over 100 stores in the regions. All other regions have less than 100 stores, which could be a factor of the low sales.
-
-Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
 ![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Region%20Performance.jpg?raw=true)
 
