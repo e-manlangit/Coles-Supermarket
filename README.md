@@ -37,7 +37,7 @@ Store location abbrevations:
 
 ###  Overview of Findings
 
-Coles performed relatively well. Gross sales exceeded revenue expectations YTD by 21.89%. Stores that reported sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined by 4.9% from Q1 to Q2; however, the company did anticipate a slight decrease in sales based on expectations. This could be attributed to standard seasonal declines between the two quarters or economic pressures due to inflation. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
+Coles performed relatively well through the two quarters in FY23. Gross sales exceeded revenue expectations YTD by 21.89%. Sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined by 4.9% from Q1 to Q2; however, the company did anticipate a slight decrease in sales based on expectations. This could be attributed to standard seasonal declines between the two quarters or economic pressures due to inflation. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
