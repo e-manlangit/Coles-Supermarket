@@ -1,50 +1,44 @@
--- Copy of tables
-
-CREATE TABLE sales_data_copy
-LIKE sales_data;
-
-CREATE TABLE store_data_copy
-LIKE store_data;
-
-INSERT sales_data_copy
-SELECT *
-FROM sales_data;
-
-INSERT store_data_copy
-SELECT *
-FROM store_data;
-
 -- Null Check
 
 SELECT
 	SUM(CASE WHEN coles_storeidno IS NULL THEN 1 ELSE 0 END) AS null_count_storeidno,
-	SUM(CASE WHEN expec_revenue IS NULL THEN 1 ELSE 0 END) AS null_count_expec_rev,
-	SUM(CASE WHEN gross_sale IS NULL THEN 1 ELSE 0 END) AS null_count_gross_sale,
-	SUM(CASE WHEN sales_cost IS NULL THEN 1 ELSE 0 END) AS null_count_sales_cost,
-	SUM(CASE WHEN targeted_quarter IS NULL THEN 1 ELSE 0 END) AS null_count_targ,
+	SUM(CASE WHEN expec_rev_qtr IS NULL THEN 1 ELSE 0 END) AS null_count_expec_rev_qtr,
+	SUM(CASE WHEN gross_sales_qtr IS NULL THEN 1 ELSE 0 END) AS null_count_sales_qtr,
+	SUM(CASE WHEN est_mthly_gross_sales IS NULL THEN 1 ELSE 0 END) AS null_count_mthly_sales,
+	SUM(CASE WHEN est_mthly_sales_cost IS NULL THEN 1 ELSE 0 END) AS null_count_mthly_cost,
+	SUM(CASE WHEN quarter IS NULL THEN 1 ELSE 0 END) AS null_count_quarter,
 	SUM(CASE WHEN coles_forecast IS NULL THEN 1 ELSE 0 END) AS null_count_forecast
-FROM sales_data_copy;
+FROM sales;
 
 SELECT
+	SUM(CASE WHEN coles_storeid IS NULL THEN 1 ELSE 0 END) AS null_storeid,
 	SUM(CASE WHEN store_location IS NULL THEN 1 ELSE 0 END) AS null_location,
-	SUM(CASE WHEN customer_count IS NULL THEN 1 ELSE 0 END) AS null_cuscount,
+	SUM(CASE WHEN cust_count IS NULL THEN 1 ELSE 0 END) AS null_custcount,
 	SUM(CASE WHEN staff_count IS NULL THEN 1 ELSE 0 END) AS null_staffcount,
 	SUM(CASE WHEN store_area IS NULL THEN 1 ELSE 0 END) AS null_storearea
-FROM store_data_copy;
+FROM store_info;
+
+-- Replacing Null Values
+
+SELECT COALESCE(cust_count, 0) AS result
+FROM store_info
+UNION ALL
+SELECT COALESCE(est_mthly_sales_cost, 0) AS result
+FROM sales;
 
 -- Duplicate check on first table
 
 SELECT *,
 	ROW_NUMBER () OVER(
-	PARTITION BY row_num, coles_storeid, store_location, customer_count, staff_count, store_area) AS row_number
-FROM store_data_copy;
+	PARTITION BY coles_storeid, store_location, cust_count, staff_count, store_area) AS row_number
+FROM store_info;
 
 WITH duplicate_store AS
 (
 SELECT *,
 	ROW_NUMBER () OVER(
-	PARTITION BY row_num, coles_storeid, store_location, customer_count, staff_count, store_area) AS row_number
-FROM store_data_copy
+	PARTITION BY coles_storeid, store_location, cust_count, staff_count, store_area) AS row_number
+FROM store_info
 )
 	
 SELECT *
@@ -55,73 +49,29 @@ WHERE row_number > 1;
 
 SELECT *,
 	ROW_NUMBER () OVER (
-	PARTITION BY row_num, coles_storeidno, expec_revenue, gross_sale, sales_cost, targeted_quarter, coles_forecast) AS row_number
-FROM sales_data_copy;
+	PARTITION BY coles_storeidno, expec_revenue_qtr, gross_sales_qtr, sales_cost_qtr, es_mthly_gross_sales, est_mthly_sales_cost, quarter, coles_forecast) AS row_number
+FROM sales;
 
 WITH dup_sales AS 
 (
 SELECT *,
 	ROW_NUMBER () OVER (
-	PARTITION BY row_num, coles_storeidno, expec_revenue, gross_sale, sales_cost, targeted_quarter, coles_forecast) AS row_number
-FROM sales_data_copy
+	PARTITION BY coles_storeidno, expec_revenue_qtr, gross_sales_qtr, sales_cost_qtr, es_mthly_gross_sales, est_mthly_sales_cost, quarter, coles_forecast) AS row_number
+FROM sales;
 )
 
 SELECT *
 FROM dup_sales
 WHERE row_number > 1;
 
--- Removing nulls / redundant rows
-
-DELETE FROM sales_data_copy
-WHERE row_num = 'Row_Num'; 
-
-
-DELETE FROM store_data_copy
-WHERE row_num IS NULL;
-
-DELETE FROM sales_data_copy
-WHERE sales_cost IS NULL
-
-DELETE FROM store_data_copy
-WHERE customer_count IS NULL
-
 -- Distinct checks on TEXT data
 
 SELECT DISTINCT (coles_forecast)
-FROM sales_data_copy
+FROM sales
 
 SELECT DISTINCT (targeted_quarter)
-FROM sales_data_copy
+FROM sales
 
 SELECT DISTINCT (coles_storeidno)
-FROM sales_data_copy
+FROM sales
 ORDER BY 1 ASC
-
---Altering columns from TEXT to INT
-	
-SELECT column_name, data_type
-FROM information_schema.columns
-WHERE table_name =  'sales_data_copy';
-
-ALTER TABLE sales_data_copy
-ALTER COLUMN expec_revenue TYPE INTEGER USING expec_revenue:: INTEGER,
-ALTER COLUMN gross_sale TYPE INTEGER USING gross_sale:: INTEGER,
-ALTER COLUMN sales_cost TYPE INTEGER USING
-	CASE 
-		WHEN sales_cost = 'NA' THEN NULL
-		ELSE sales_cost:: INTEGER
-	END;
-
-SELECT column_name, data_type
-FROM information_schema.columns
-WHERE table_name =  'store_data_copy';
-
-ALTER TABLE store_data_copy
-ALTER COLUMN staff_count TYPE INTEGER USING staff_count:: INTEGER,
-ALTER COLUMN store_area TYPE INTEGER USING store_area:: INTEGER,
-ALTER COLUMN customer_count TYPE INTEGER USING
-	CASE 
-		WHEN customer_count = 'NA' THEN NULL
-		ELSE customer_count:: INTEGER
-	END;
-
