@@ -9,9 +9,8 @@ Key insights and recommendations are provided on the following key areas:
 
 An interactive PowerBI dashboard can be downloaded [here](url)
 
-The SQL queries utilized to inspect and perform quality checks can be found here.
-
-The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found [here](https://github.com/e-manlangit/Coles-Supermarket/blob/main/SQL%20Queries/Data%20Cleaning%20for%20Analysis.sql).
+The SQL queries utilized to inspect and perform quality checks can be found [here](https://github.com/e-manlangit/Coles-Supermarket/blob/main/SQL%20Queries/Data%20Cleaning%20for%20Analysis.sql).
+  - No issues were observed on the worksheet
 
 Targeted SQL queries regarding various business questions can be found [here](https://github.com/e-manlangit/Coles-Supermarket/blob/main/SQL%20Queries/Targeted%20Business%20Questions.sql)
 
