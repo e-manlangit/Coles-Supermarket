@@ -57,7 +57,7 @@ Coles performed relatively well through the two quarters in FY23. Gross sales ex
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
-![Alt text]()
+![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Overview.jpg?raw=true)
 
 ## Sales Trends:
 
