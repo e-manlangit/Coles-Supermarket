@@ -7,13 +7,13 @@ Key insights and recommendations are provided on the following key areas:
 
   - Regional Sales Performance Analysis: A comprehensive evaluation of sales performance by region.
 
-An interactive PowerBI dashboard can be downloaded here
+An interactive PowerBI dashboard can be downloaded [here](url)
 
-The SQL queries utilized to inspect and perform quality checks can be found here.
+The SQL queries utilized to inspect and perform quality checks can be found [here](url).
 
-The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found here.
+The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found [here](url).
 
-Targeted SQL queries regarding various business questions can be found here
+Targeted SQL queries regarding various business questions can be found [here](url)
 
 # Data Structure & Initial Checks
 Coles data structure consists of a table for sales data (sales) and another for store data (store_info), with a total row count of 683 records:
