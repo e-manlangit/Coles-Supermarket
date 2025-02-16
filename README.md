@@ -45,7 +45,7 @@ Store location is listed as their abbreviated names. Below are the names of the 
 - **SA**: *South Australia*
 - **TAS**: *Tasmania*
 - **VIC**: *Victoria*
-- **WA**: *Western1 Australia*
+- **WA**: *Western Australia*
 
 # Executive Summary
 
