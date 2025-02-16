@@ -59,13 +59,13 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 ![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Overview.jpg?raw=true)
 
-## Sales Trends:
+### Sales Trends:
 
 - 77% of the company’s total sales were from just three regions: Victoria, New South Wals and Queensland. These three regions accounted for $7.5B in revenue per month, in addition to having over 100 stores.
 
 - The Northern Territory consistently leads in average monthly sales, outperforming other regions by up to 8%, despite having only 10 stores. Similarly, the Australian Capital Territory, with just 13 stores, also exceeded the average sales performance of other regions.
 
-## Customer Density:
+### Customer Density:
 
 - Victoria and New South Wales have the highest customer density, with over 1,100 customers per square meter. Despite this, Victoria's stores are smaller, averaging 1,886 square meters, while New South Wales stores are slightly larger at 1,926 square meters.
 
