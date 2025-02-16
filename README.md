@@ -71,7 +71,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 - Stores in the Northern Territory and Australian Capital Territory are 3-5% larger, with 65-100 more square meters on average. Additionally, the Northern Territory, Australian Capital Territory, and Tasmania are underutilized, with a very low customer density of less than 100 customer per square meter.
 
-![Alt text]()
+![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Region%20Performance%20(1).jpg?raw=true)
 
 ### Recommendations:
 
@@ -80,16 +80,4 @@ Based on the uncovered insights, the following recommendations have been provide
 - **Consider conducting additional market research and cost analysis to add stores in the Northern Territory and the Australian Capital Territory.** Both regions are leading in average monthly sales and would provide growth opportunities.
 
 - With stores in Austalian Capital Territory, Northern Territory, and Tasmania having above average store sizes and low customer density, increasing foot traffic is crucial. **Enhancing marketing efforts and offer special promotions to the existing stores could drive sales.**
-
-- With 85% of orders and 70% of revenue coming from just three products, diversifying the product portfolio is crucial. **Expanding the accessory category with new product lines, particularly Apple charging cables, would provide upsell opportunities.**
-
-- Despite the general sales success of Apple products, iPhone sales have been disappointingly low (1% of revenue in 2022). **Enhancing marketing efforts to previous Apple product buyers could boost sales.**
-
-- Look to capitalize on the growing share of Samsung accessories (32% of order count in 2022) by **introducing higher-cost Samsung products in already carried product categories such as laptops and cellphones.**
-
-- **Re-evaluate Bose SoundSport Headphones**. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystems loyalty members before discontinuing.
-
-- **Continue and push forward the loyalty program.** In order to convert non-members, considering offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
-
-
 
