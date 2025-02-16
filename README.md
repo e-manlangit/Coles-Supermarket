@@ -70,12 +70,16 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 - Victoria and New South Wales have the highest customer density, with over 1,100 customers per square meter. Despite this, Victoria's stores are smaller, averaging 1,886 square meters, while New South Wales stores are slightly larger at 1,926 square meters.
 
 - Stores in the Northern Territory and Australian Capital Territory are 3-5% larger, with 65-100 more square meters on average. Additionally, the Northern Territory, Australian Capital Territory, and Tasmania are underutilized, with a very low customer density of less than 100 customer per square meter.
-- 
-![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Region%20Performance.jpg?raw=true)
+
+![Alt text]()
 
 ### Recommendations:
 
 Based on the uncovered insights, the following recommendations have been provided:
+
+- **Consider conducting additional market research and cost analysis to add stores in the Northern Territory and the Australian Capital Territory.** Both regions are leading in average monthly sales and would provide growth opportunities.
+
+- With stores in Austalian Capital Territory, Northern Territory, and Tasmania having above average store sizes and low customer density, increasing foot traffic is crucial. **Enhancing marketing efforts and offer special promotions to the existing stores could drive sales.**
 
 - With 85% of orders and 70% of revenue coming from just three products, diversifying the product portfolio is crucial. **Expanding the accessory category with new product lines, particularly Apple charging cables, would provide upsell opportunities.**
 
