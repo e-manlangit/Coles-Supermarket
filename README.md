@@ -17,7 +17,7 @@ Targeted SQL queries regarding various business questions can be found [here](ht
 # Data Structure & Initial Checks
 Coles data structure consists of a table for sales data (sales) and another for store data (store_info), with a total row count of 683 records:
 
-Sales:
+**Sales**:
 - **Coles_storeidno**: *Unique ID*
 - **Expec_rev_qtr**: *Expected revenue for each store per quarter*
 - **Gross_sales_qtr**: *Gross sales for each store per quarter*
@@ -27,7 +27,7 @@ Sales:
 - **Quarter**: *Specific quarter within a fiscal year*
 - **Coles_forecast**: *Evaluates if the store's net sales (Gross_Sale - Sales_Cost) meet the expected revenue. If net sales meet or exceed the target, they are "On Target"; if not, they are "Below Target."*
 
-Store_info:
+**Store_info**:
 - **Coles_storeid**: *Unique ID* 
 - **Store_location**: *Information on the store’s region*
 - **Cust_count**: *Average customer count per store*
@@ -38,7 +38,6 @@ Store_info:
 
 Store location is listed as their abbreviated names. Below are the names of the abbreviations:
 
-Store location abbrevations:
 - **ACT**: *Australian Capital Territory*
 - **NSW**: *New South Wales*
 - **NT**: *Northern Territory*
