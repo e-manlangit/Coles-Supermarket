@@ -57,7 +57,7 @@ Coles performed relatively well through the two quarters in FY23. Gross sales ex
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
-![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Overview.jpg?raw=true)
+![Alt text]()
 
 ## Sales Trends:
 
@@ -65,7 +65,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 - The Northern Territory consistently leads in average monthly sales, outperforming other regions by up to 8%, despite having only 10 stores. Similarly, the Australian Capital Territory, with just 13 stores, also exceeded the average sales performance of other regions.
 
-![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Region%20Performance.jpg?raw=true)
+![Alt text]()
 
 ## Sales Trends:
 
