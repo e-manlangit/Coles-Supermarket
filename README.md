@@ -1,7 +1,7 @@
 # Project-Background
 Coles Supermarket, established in 1914, is a leading Australian retail chain offering a wide range of products, including fresh produce, liquor, essential items, and financial services such as credit cards.
 
-The company provided sufficient information on geographical information, sales performance, such as, gross sales, sales cost, and expected revenue from Q1 to Q2 in FY23. No information was provided on the range of products that contributed to the gross sales. Additional columns were built manually to find the estimated monthly totals for gross sales and sales cost. This will help provide a better overview for performance evaluations for each region. The findings synthesize critical insights aimed at enhancing Coles' operational success and driving future growth.
+The company provided sufficient information on geographical information, sales performance, such as, gross sales, sales cost, and expected revenue from Q1 to Q2 in FY23. No information was provided on the range of products that contributed to gross sales. Additional columns were built manually to find the estimated monthly totals for gross sales and sales cost. This will help provide a better overview for performance evaluations for each region. The findings synthesize critical insights aimed at enhancing Coles' operational success and driving future growth.
 
 Key insights and recommendations are provided on the following key areas:
 
@@ -51,7 +51,7 @@ Store location is listed as their abbreviated names. Below are the names of the 
 
 ###  Overview of Findings
 
-Coles performed relatively well through the two quarters in FY23. Gross sales exceeded revenue expectations YTD by 21.89%. Sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined by 4.9% from Q1 to Q2; however, the company did anticipate a slight decrease in sales based on expectations. This could be attributed to standard seasonal declines between the two quarters or economic pressures due to inflation. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
+Coles performed relatively well through the two quarters in FY23. Gross sales exceeded expectations YTD by 21.89%. Sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined by 4.9% from Q1 to Q2; however, the company did anticipate a slight decrease in sales based on expectations. This could be attributed to standard seasonal declines between the two quarters or economic pressures due to inflation. The following sections will provide additional contributing factors and highlight key opportunity areas for improvement.
 
 *Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](https://github.com/e-manlangit/Coles-Supermarket/raw/refs/heads/main/Coles%20Dashboard.pbix).*
 
