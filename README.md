@@ -18,35 +18,35 @@ Targeted SQL queries regarding various business questions can be found [here](ht
 Coles data structure consists of a table for sales data (sales) and another for store data (store_info), with a total row count of 683 records:
 
 Sales:
-- Coles_storeidno: Unique ID
-- Expec_rev_qtr: Expected revenue for each store per quarter
-- Gross_sales_qtr: Gross sales for each store per quarter
-- Sales_cost_qtr: Cost incurred after a sales has occurred per quarter
-- Est_mthly_gross_sales: Estimated monthly gross sales
-- Est_mthly_sales_cost: Estimated monthly sales cost
-- Quarter: Specific quarter within a fiscal year
-- Coles_forecast: Evaluates if the store's net sales (Gross_Sale - Sales_Cost) meet the expected revenue. If net sales meet or exceed the target, they are "On Target"; if not, they are "Below Target."
+- **Coles_storeidno**: * *Unique ID* *
+- **Expec_rev_qtr**: * *Expected revenue for each store per quarter* *
+- **Gross_sales_qtr**: * *Gross sales for each store per quarter* *
+- **Sales_cost_qtr**: * *Cost incurred after a sales has occurred per quarter* *
+- **Est_mthly_gross_sales**: * *Estimated monthly gross sales* *
+- **Est_mthly_sales_cost**: * *Estimated monthly sales cost* *
+- **Quarter**: * *Specific quarter within a fiscal year* *
+- **Coles_forecast**: * *Evaluates if the store's net sales (Gross_Sale - Sales_Cost) meet the expected revenue. If net sales meet or exceed the target, they are "On Target"; if not, they are "Below Target."* *
 
 Store_info:
-- Coles_storeid: Unique ID
-- Store_location: Information on the store’s region
-- Cust_count: Average customer count per store
-- Staff_count: Number of employees who work at the stores
-- Store_area: Store size, expressed in square meters
+- **Coles_storeid**: * *Unique ID* *
+- **Store_location**: * *Information on the store’s region* *
+- **Cust_count**: * *Average customer count per store* *
+- **Staff_count**: * *Number of employees who work at the stores* *
+- **Store_area**: * *Store size, expressed in square meters* *
 
 ![sales_datastructure](https://github.com/user-attachments/assets/290af041-e441-4736-8d4e-3d2b46d9603b) ![stores_datastructure](https://github.com/user-attachments/assets/eccf1cab-b227-4177-b602-1712bb8ef26c)
 
 Store location is listed as their abbreviated names. Below are the names of the abbreviations:
 
 Store location abbrevations:
-- ACT: Australian Capital Territory
-- NSW: New South Wales
-- NT: Northern Territory
-- QLD: Queensland
-- SA: South Australia
-- TAS: Tasmania
-- VIC: Victoria
-- WA: Western1 Australia
+- **ACT**: * *Australian Capital Territory* *
+- **NSW**: * *New South Wales* *
+- **NT**: * *Northern Territory* *
+- **QLD**: * *Queensland* *
+- **SA**: * *South Australia* *
+- **TAS**: * *Tasmania* *
+- **VIC**: * *Victoria* *
+- **WA**: * *Western1 Australia* *
 
 # Executive Summary
 
@@ -54,7 +54,7 @@ Store location abbrevations:
 
 Coles performed relatively well through the two quarters in FY23. Gross sales exceeded revenue expectations YTD by 21.89%. Sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined by 4.9% from Q1 to Q2; however, the company did anticipate a slight decrease in sales based on expectations. This could be attributed to standard seasonal declines between the two quarters or economic pressures due to inflation. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
 
-Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
+* *Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](url).* *
 
 ![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Overview.jpg?raw=true)
 
