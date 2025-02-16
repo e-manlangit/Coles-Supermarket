@@ -7,7 +7,7 @@ Key insights and recommendations are provided on the following key areas:
 
   - Regional Sales Performance Analysis: A comprehensive evaluation of sales performance by region.
 
-_An interactive PowerBI dashboard can be downloaded [here](url)_
+_An interactive PowerBI dashboard can be downloaded [here](https://github.com/e-manlangit/Coles-Supermarket/raw/refs/heads/main/Coles%20Dashboard.pbix)_
 
 _The SQL queries utilized to inspect and perform quality checks can be found [here](https://github.com/e-manlangit/Coles-Supermarket/blob/main/SQL%20Queries/Data%20Cleaning%20for%20Analysis.sql)._
   - _No issues were observed on the worksheet_
@@ -53,7 +53,7 @@ Store location is listed as their abbreviated names. Below are the names of the 
 
 Coles performed relatively well through the two quarters in FY23. Gross sales exceeded revenue expectations YTD by 21.89%. Sales in Q1 exceeded expectations by 24.2% in Q1 and 19.6% in Q2. Although sales appear to have exceeded expectations, sales declined by 4.9% from Q1 to Q2; however, the company did anticipate a slight decrease in sales based on expectations. This could be attributed to standard seasonal declines between the two quarters or economic pressures due to inflation. The following sections will export additional contributing factors and highlight key opportunity areas for improvement.
 
-*Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](url).*
+*Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](https://github.com/e-manlangit/Coles-Supermarket/raw/refs/heads/main/Coles%20Dashboard.pbix).*
 
 ![Alt text](https://github.com/e-manlangit/coles_supermarket_datastructure/blob/main/Coles%20Overview.jpg?raw=true)
 
